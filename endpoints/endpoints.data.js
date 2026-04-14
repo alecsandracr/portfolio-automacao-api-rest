@@ -1,10 +1,11 @@
 
-const baseUrl = 'https://serverest.dev',
+const baseUrl = 'https://serverest.dev';
 
-    apisName = {
+const apisName = {
     users: '/usuarios',
     deleteUserById: '/usuarios/{_id}' ,
-    getUsers : '/usuarios'
+    getUsers : '/usuarios',
+    putUserById: '/usuarios/{_id}'
 }
 
 module.exports = {

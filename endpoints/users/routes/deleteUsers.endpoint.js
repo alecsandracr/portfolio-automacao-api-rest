@@ -3,7 +3,7 @@ const { baseUrl, apisName } = require("../../endpoints.data");
 
 /**
  * method to delete a user by ID
- * @param {*} param0 
+ * @param {*} 
  * @returns 
  */
 async function deleteUser({userId, statusCode = 200}) {
